@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        <center> New Registrtion Form</center>
+    </h1>
+    <fieldset>
+        <form action="index.html" method="get">
+            <center> <label for="user name">
+                    <i>user name :</i>
+                </label>
+                <input type="text" name="user name" id="user name" placeholder="user name" pattern="[a-zA-Z]+" required>
+            </center><br><br>
+            <center> <label for=" password">
+                    <i> password:</i>
+                </label>
+                <input type="text" name="password" id="password" placeholder="password"
+                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d]).{8,16}" required>
+            </center>
+            <br><br>
+            <center> <label for="Email">
+                    <i> Email :</i>
+                </label>
+                <input type="email" name="Email" id="Email" placeholder="Email" pattern=" .+@example\.com" required>
+            </center><br><br>
+            <center><input type="submit"></center>
+        </form>
+    </fieldset>
+
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        <center>forget password</center>
+    </h1>
+    <fieldset>
+        <form action="index.html" method="get">
+            <center> <label for="user name">
+                    <i>user name :</i>
+                </label>
+                <input type="text" name="user name" id="user name" placeholder="user name" pattern="[a-zA-Z]+" required>
+            </center><br><br>
+            <center> <label for="Enter OTP">
+                    <i> Enter OTP:</i>
+                </label>
+                <input type="text" name=" Enter OTP" id=" Enter OTP" placeholder="Enter OTP" pattern="[/d]" required>
+            </center>
+            <br><br>
+            <center> <label for=" New Password ">
+                    <i> New Password :</i>
+                </label>
+                <input type="text" name="  New Password" id="  New Password" placeholder="New Password"
+                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d]).{8,16}" required>
+            </center><br><br>
+            <center><input type="submit"></center>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
